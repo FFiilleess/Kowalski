@@ -12,7 +12,6 @@ using namespace std;
 
 int main(){
     float a,b,c;
-    float hyp = 0.0;
 
     cout<< "Enter the length of the three sides a,b,c: "<< endl<<
     "Press the 'Enter' key after each entry."<< endl;
@@ -34,23 +33,20 @@ int main(){
 
     if ((b < a && a > c) && (pow(b,2)+ pow(c,2)==pow(a,2)))
         {
-            hyp = a ;
-            cout << "You entered : "<< hyp<< " "<<b << " "<<c <<endl;
-            cout << "The longest side is: "<< hyp<< endl<<
+            cout << "You entered : "<< a<< " "<<b << " "<<c <<endl;
+            cout << "The longest side is: "<< a<< endl<<
             "The Triangle is a RIGHT Traingle."<< endl;
         }
         else if ((a < b && b > c) && (pow(c,2)+pow(a,2)==pow(b,2)))
         {
-            hyp = b ;
-            cout << "You entered : "<< hyp<< ", "<<a << ", "<<c <<endl;
-            cout << "The longest side is: "<< hyp<< endl<<
+            cout << "You entered : "<< a<< ", "<<b << ", "<<c <<endl;
+            cout << "The longest side is: "<< b<< endl<<
             "The Triangle is a RIGHT Traingle."<< endl;
         }
         else if ((a < c && c > b) && (pow(a,2)+pow(b,2)==pow(c,2)))
         {
-            hyp = c ;
-            cout << "You entered : "<< hyp<< " ,"<<b << " ,"<<a <<endl;
-            cout << "The longest side is: "<< hyp<< endl<<
+            cout << "You entered : "<< a<< " ,"<<b << " ,"<<c <<endl;
+            cout << "The longest side is: "<< c<< endl<<
             "The Triangle is a RIGHT Traingle."<< endl;
         }
         else {
