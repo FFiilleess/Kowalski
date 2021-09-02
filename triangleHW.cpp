@@ -20,7 +20,7 @@ int main(){
     if (a == 0 || b == 0 || c == 0)
     {
         cout << "You entered a wrong input" << endl <<
-        "The lenght must be greater than 1" << endl;
+        "The lenght must be greater than 0" << endl;
     }
     else if (a + b > c && b + c > a && c + a > b)
     {
