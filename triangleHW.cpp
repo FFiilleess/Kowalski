@@ -1,8 +1,9 @@
 /* Program name: triangles.cpp
-*  Author: Pratham Vadhulas
-*  Date last updated: 09/01/2021
-* Purpose: Calculates whether or not the sides form a triagle, and if so
-           it outputs whether or not the triangle is a right triangle.
+*  Author: Emmanuel Adebanjo
+*  Date last updated: 09/0c/2021
+* Purpose: Accept the input of three length from a user.
+           Determine if it forms a triangle or not.
+*          Also determine if it is a RIGHT angle triangle.
 */
 
 #include <iostream>
