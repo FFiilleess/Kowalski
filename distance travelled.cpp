@@ -10,12 +10,13 @@ using namespace std;
 
 int main(){
 
+  // Declare the variables
   int dist,spd,tim,logic;
 
   dist = 0;
   logic = 1;
 
-
+//Accepts and stores input from the user
    cout<<"What is the speed of the vehicle in mph ?" << endl;
     cout <<" Do not input a negative number!: "<< endl;
     cin >> spd;
@@ -23,7 +24,9 @@ int main(){
     cout<<"How many hours has it travelled ?" <<endl;
     cout<<" Do not input a value less than 1. :"<< endl;
     cin >> tim;
-
+  
+//Validates the input to make sure Speed of the vehicle is not negative
+  //and hours travelled is not less than 1.
     if (spd < 0 || tim < 1)
       {
         cout << "You entered an invalid input. " <<endl;
@@ -36,6 +39,8 @@ int main(){
         cout<< "                           "<< endl;
         cout<< "Hours    " << "Distance Travelled"<< endl; 
         cout<< "-----------------------------"<< endl;
+       
+       //This loop calculates and displays the distance travelled every hour of the given period.   
               while (tim  >= 1)
           {
 
