@@ -1,3 +1,10 @@
+/* Program name: fallingDistance.cpp
+*  Author: Emmanuel Adebanjo
+*  Date last updated: 09/20/2021
+* Purpose: Accepts an objects falling time in seconds and using a user-defined function, 
+calculates the falling distance from a given formula.
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
